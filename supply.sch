@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -43,6 +43,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1250 1950 0    60   Input ~ 0
++12v_in
+Text HLabel 1250 2300 0    60   Input ~ 0
+GND
+Text HLabel 10500 1950 2    60   Input ~ 0
++5v
+Text HLabel 10500 2300 2    60   Input ~ 0
++3v3
 $Bitmap
 Pos 7350 6700
 Scale 1.000000
@@ -401,56 +409,4 @@ EndData
 $EndBitmap
 Text Notes 7750 7050 0    50   ~ 0
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 \nInternational License. To view a copy of this license, visit \nhttp://creativecommons.org/licenses/by-sa/4.0/  or send a letter to \nCreative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n\nAttribution: Robert Baruch <robert.c.baruch@gmail.com>
-$Sheet
-S 1550 1250 1000 700 
-U 57F7AE9A
-F0 "Common voltage supply" 60
-F1 "supply.sch" 60
-F2 "+12v_in" I L 1550 1400 60 
-F3 "GND" I L 1550 1700 60 
-F4 "+5v" I R 2550 1400 60 
-F5 "+3v3" I R 2550 1700 60 
-$EndSheet
-$Sheet
-S 3500 1250 1050 3050
-U 57F7AE9D
-F0 "Controller module" 60
-F1 "top-module.sch" 60
-F2 "MOSI" O R 4550 1350 60 
-F3 "MISO" I R 4550 1450 60 
-F4 "SCLK" O R 4550 1550 60 
-F5 "-CS_THERMO" O R 4550 3000 60 
-F6 "-CS_VOUT" O R 4550 1650 60 
-F7 "-CS_RELAY" O R 4550 4050 60 
-$EndSheet
-$Sheet
-S 5750 1250 1150 700 
-U 57F7AEA0
-F0 "Vout module" 60
-F1 "vout-module.sch" 60
-F2 "MOSI" I L 5750 1350 60 
-F3 "MISO" O L 5750 1450 60 
-F4 "SCLK" I L 5750 1550 60 
-F5 "-CS" I L 5750 1650 60 
-$EndSheet
-$Sheet
-S 5750 2600 1150 600 
-U 57F7AEA3
-F0 "Thermo module" 60
-F1 "thermo-module.sch" 60
-F2 "MOSI" I L 5750 2700 60 
-F3 "MISO" O L 5750 2800 60 
-F4 "SCLK" I L 5750 2900 60 
-F5 "-CS" I L 5750 3000 60 
-$EndSheet
-$Sheet
-S 5750 3650 1150 650 
-U 57F7AEA8
-F0 "Relay module" 60
-F1 "relay-module.sch" 60
-F2 "MOSI" I L 5750 3750 60 
-F3 "MISO" O L 5750 3850 60 
-F4 "SCLK" I L 5750 3950 60 
-F5 "-CS" I L 5750 4050 60 
-$EndSheet
 $EndSCHEMATC
