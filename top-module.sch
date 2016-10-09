@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:benchbud-parts
 LIBS:power
 LIBS:device
 LIBS:transistors

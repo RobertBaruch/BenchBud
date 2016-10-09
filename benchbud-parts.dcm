@@ -1,0 +1,50 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD7940
+D MCP3425A0T, Single Delta-Sigma 16bit Analog to Digital Converter, I2C Interface, SOT-23-6
+K Sigma-Delta ADC Converter 16bit I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22072b.pdf
+$ENDCMP
+#
+$CMP AD8495C
+D Precision thermocouple amplifier with cold junction compensation
+K thermocouple, opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8494_8495_8496_8497.pdf
+$ENDCMP
+#
+$CMP AD8613
+D Op Amp
+K opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8613_8617_8619.pdf
+$ENDCMP
+#
+$CMP BANANA
+D Banana jack
+K jack, banana
+$ENDCMP
+#
+$CMP MCP3421A0T-E/CH
+D MCP3421A0T, Single Delta-Sigma 18bit Analog to Digital Converter, I2C Interface, SOT-23-6
+K Sigma-Delta ADC Converter 18bit I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22003e.pdf
+$ENDCMP
+#
+$CMP MCP3425A1T-E/CH
+D MCP3425A1T, Single Delta-Sigma 16bit Analog to Digital Converter, I2C Interface, SOT-23-6
+K Sigma-Delta ADC Converter 16bit I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22072b.pdf
+$ENDCMP
+#
+$CMP MCP3425A2T-E/CH
+D MCP3425A2T, Single Delta-Sigma 16bit Analog to Digital Converter, I2C Interface, SOT-23-6
+K Sigma-Delta ADC Converter 16bit I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22072b.pdf
+$ENDCMP
+#
+$CMP MCP3425A3T-E/CH
+D 100 ksps 14-bit ADC
+K adc
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7940.pdf
+$ENDCMP
+#
+#End Doc Library
